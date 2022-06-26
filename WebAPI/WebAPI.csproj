@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+ <PropertyGroup>
+   <TargetFramework>net5.0</TargetFramework>
+  <RootNamespace>Examples.MediatR.WebAPI</RootNamespace>
+  <DocumentationFile>bin\debug\WebAPI.xml</DocumentationFile>
+  <AssemblyName>Examples.MediatR.WebAPI</AssemblyName>
+ </PropertyGroup>
+
+ <ItemGroup>
+  <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+ </ItemGroup>
+
+ <ItemGroup>
+   <ProjectReference Include="..\Core\Core.csproj" />
+   <ProjectReference Include="..\Domain\Domain.csproj" />
+ </ItemGroup>
+
+</Project>
